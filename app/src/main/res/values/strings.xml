@@ -50,4 +50,8 @@
     <string name="Play_music">Play the music</string>
     <string name="title_user">Title User</string>
     <string name="empezarJuego">Jugar</string>
+    <string name="denunciar_abuso">Denunciar abuso</string>
+    <string name="nameAbuso">Name</string>
+    <string name="messageAbuso">Message</string>
+    <string name="send">Send</string>
 </resources>

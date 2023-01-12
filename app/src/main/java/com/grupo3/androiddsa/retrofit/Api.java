@@ -1,6 +1,7 @@
 package com.grupo3.androiddsa.retrofit;
 
 import com.grupo3.androiddsa.domain.Characters;
+import com.grupo3.androiddsa.domain.Issue;
 import com.grupo3.androiddsa.domain.MyObjects;
 import com.grupo3.androiddsa.domain.User;
 import com.grupo3.androiddsa.domain.to.ObjectRecycler;
@@ -50,6 +51,9 @@ public interface Api {
 
     @GET("gameManager/user/{email}/characters")
     Call<List<Characters>> getMyCharacters(@Path("email") String email);
+
+    @POST("gameManager/issue")
+    Call<Void> enviarIssue(@Body Issue issue);
 
     Retrofit retrofit = new Retrofit.Builder()
             .baseUrl(URL)
