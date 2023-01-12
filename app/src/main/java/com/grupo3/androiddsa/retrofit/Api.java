@@ -55,6 +55,9 @@ public interface Api {
     @POST("gameManager/issue")
     Call<Void> enviarIssue(@Body Issue issue);
 
+    @GET("gameManager/issue")
+    Call<List<Issue>> getIssues();
+
     Retrofit retrofit = new Retrofit.Builder()
             .baseUrl(URL)
             .addConverterFactory(GsonConverterFactory.create())

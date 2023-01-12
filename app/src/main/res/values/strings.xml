@@ -54,4 +54,6 @@
     <string name="nameAbuso">Name</string>
     <string name="messageAbuso">Message</string>
     <string name="send">Send</string>
+    <string name="enviar">enviar</string>
+    <string name="ver_la_lista_de_todos_los_abusos">Ver la lista de todos los abusos</string>
 </resources>
