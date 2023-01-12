@@ -1,4 +1,4 @@
-Android Mínim3
+Android Mínim2
 
 Exercici a realitzar:
 
